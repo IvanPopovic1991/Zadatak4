@@ -1,7 +1,7 @@
 public abstract class Product {
-    public String productName;
-    public String barcode;
-    public double basePrice;
+    protected String productName;
+    protected String barcode;
+    protected double basePrice;
     public static final double tax = 20;
 
     public Product(String productName, String barcode, double price) {

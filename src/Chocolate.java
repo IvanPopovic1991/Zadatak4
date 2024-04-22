@@ -1,5 +1,5 @@
 public class Chocolate extends Product {
-    double weight;
+    private double weight;
 
     public Chocolate(String productName, String barcode, double price, double weight) {
         super(productName, barcode, price);
@@ -14,8 +14,8 @@ public class Chocolate extends Product {
 
     @Override
     public String toString() {
-        return "Product Name : " + this.productName + " Barcode : " + this.barcode + " Product price :" + this.basePrice +
-                " Product weight " + this.weight;
+        return "Product Name - " + this.productName + " ; Barcode - " + this.barcode + " ; Product price - " + this.basePrice +
+                " ; Product volume - " + this.weight + " .";
     }
 
 

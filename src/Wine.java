@@ -1,5 +1,5 @@
 public class Wine extends Product{
-    double volume;
+    private double volume;
     public static final double extraTax = 10;
 
     public Wine(String productName, String barcode, double price,double volume) {
@@ -14,7 +14,7 @@ public class Wine extends Product{
     }
     @Override
     public String toString() {
-        return "Product Name : " + this.productName + " Barcode : " + this.barcode + " Product price :" + this.basePrice +
-                " Product volume: " + this.volume;
+        return "Product Name - " + this.productName + " ; Barcode - " + this.barcode + " ; Product price - " + this.basePrice +
+                " ; Product volume - " + this.volume + " .";
     }
 }
